@@ -53,7 +53,7 @@ router.get('/books', async function (req, res) {
             page=1
         }
         if (!size){
-            size=10  //default size
+            size=10  
         }
         const limit = parseInt(size)
         const users = await bookModel.find().limit(limit)
