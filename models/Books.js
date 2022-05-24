@@ -4,7 +4,7 @@ const db = require('../config/db');
 const bookSchema = new mongoose.Schema({
     Bookname:{
         type:String,
-        default:"----"
+        default:"---"
     },
     BookId:{
       type:String,
